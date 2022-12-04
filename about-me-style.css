@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #100f0f;
+}
+
+
+
+.haqqimda {
+  background-color: #e2dcc8;
+  font-weight: 600;
+  text-align: center;
+  font-size: 34px;
+}
+
+nav {
+  display: flex;
+  width: 99%;
+  height: auto;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px 20px;
+}
+
+nav ul li a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #e2dcc8;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about {
+  width: 100%;
+  padding: 78px 0px;
+}
+
+.about img {
+  height: auto;
+  width: 420px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h1 {
+  color: white;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  color: white;
+  font-size: 28px;
+  text-transform: capitalize;
+  margin-bottom: 19px;
+  letter-spacing: 10px;
+}
+
+span {
+  color: #0f3d3e;
+}
+
+span:hover {
+  color: blue;
+}
+
+.about-text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+button {
+  background: #0f3d3e;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+button:hover {
+  background: transparent;
+  border: 2px solid #0f3d3e;
+  cursor: pointer;
+}
+
+.Education-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Education-main img {
+  width: 40%;
+  margin: 100px;
+}
+
+.Education-text h1 {
+  color: white;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin: 20px;
+  margin-left: 433px;
+  margin-bottom: 0;
+}
+
+.Education-text h5 {
+  color: white;
+  font-size: 28px;
+  text-transform: capitalize;
+  margin-left: 440px;
+  letter-spacing: 5px;
+}
+
+.Education-text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+  margin-left: 440px;
+}
+
+#ada {
+  width: 900px;
+  height: 650px;
+  margin-left: 980px;
+}
+
+.copyright {
+  font-size: 24px;
+  font-family: sans-serif;
+  background-color: #e2dcc8;
+}
+
+.copyright:hover {
+  color: gray;
+}
